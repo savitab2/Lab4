@@ -73,6 +73,15 @@ public class Colosseum {
      */
     public static Pokemon buildPokemon() {
         Pokemon tempPokemon = new Pokemon();
+        Scanner lineScanner = new Scanner(System.in);
+        System.out.println("Enter your attack level: ");
+        int attackLevel = lineScanner.nextInt();
+        System.out.println("Enter your defense level: ");
+        System.out.println(" ");
+
+
+
+
         return tempPokemon;
     }
 
@@ -90,6 +99,7 @@ public class Colosseum {
      * Implement this function.
      */
     public static void printWhoIsAhead() {
+
         System.out.println("Implement me!");
     }
 
